@@ -1,0 +1,72 @@
+body {
+    background-image: url("script.js");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: lightgrey;
+  width: 1150px;
+  border: 30px solid green;
+  padding: 20px;
+  margin: 20px;
+}
+
+header {
+    background-color: hsl(0, 95%, 40%);
+    color:rgb(10, 6, 6);
+    text-align: center;
+    background-image: "/home/b27/Downloads/hostel.jpeg";
+    padding: 1rem;
+}
+
+#roomContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.room {
+    border: 1px solid #251818;
+    padding: 500px;
+    width: 300px;
+}
+/* Style for the main room container */
+#roomContainer {
+    display: grid;
+    
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* Style for each room box */
+.room {
+    border: 2px solid #330505;
+    padding: 15px;
+    background-color: #cbf0f0;
+    border-radius: 5px;
+}
+
+/* Style for each girl paragraph */
+.girl {
+    margin: 5px 0;
+    
+
+}
+
+/* Clearfix for room boxes (adjust the height based on your content) */
+.room::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-image: url("/home/b117/Downloads/WhatsApp Image 2023-08-26 at 9.44.23 PM.jpeg"); /* Replace with the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
